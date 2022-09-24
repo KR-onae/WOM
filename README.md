@@ -40,9 +40,13 @@ This is how you do it.
 
 ### So what can settings.json do?
 Several settings can be modified.
-Typically, by modifying **port** , you can modify the port where the website is opened,
+Typically, by modifying **port** ,
+you can modify the port where the website is opened,
 Change **page.AutoRoutes** to determine if routes are created automatically.
 Also by changing **console.log.do** you can decide whether to output messages to the console,
-You can make more granular decisions by editing **console.log.run**, **console.log.warn**, **console.log.error** .
-**console.log.req** determines whether to output the following **status**, **URL**, **runURL** , likewise **status**, **URL**, **runURL** is used for more detailed settings.
+You can make more granular decisions by editing
+**console.log.run**, **console.log.warn**, **console.log.error** .
+
+**console.log.req** determines whether to output the following
+**status**, **URL**, **runURL** , likewise **status**, **URL**, **runURL** is used for more detailed settings.
 In addition to this, there is also **Internet.loc** which sets where to get the server IP from. Setting this to false automatically sets it.

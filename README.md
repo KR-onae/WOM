@@ -38,6 +38,11 @@ web. route("/", function() {
 ```
 This is how you do it.
 
+Additionally, if you write runurl when returning,
+the letter will be displayed instead of a red X when outputting req to the console.
+This is just for programmers to notice when testing,
+and it doesn't do anything else when it works.
+
 ### So what can settings.json do?
 Several settings can be modified.
 Typically, by modifying **port** ,

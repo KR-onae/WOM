@@ -1,0 +1,9 @@
+{
+	"server": {
+		"starting": "서버가 켜지는 중 입니다.",
+		"started": "서버가 포트 ${settings.port} 에서 열렸습니다."
+	},
+	"Internet": {
+		"IPconnet": "아이피 확인용 인터넷이 ${settings.Internet.loc} 으로 자동 설정되었습니다."
+	}
+}

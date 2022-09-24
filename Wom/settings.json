@@ -1,0 +1,37 @@
+{
+    "port": 80,
+    "page": {
+		"fileName": "files",
+        "error": {
+            "do": true,
+            "fileName": "error"
+        },
+        "lock": {
+            "indexFile": true,
+			"ifnoinWebroute": false
+        }
+    },
+	"lang": {
+		"fileName": "lang",
+		"lang": "kr"
+	},
+    "console": {
+        "log": {
+            "do": true,
+            "run": true,
+            "warn": true,
+            "error": true,
+            "req": true,
+            "status": true,
+            "URL": true,
+            "runURL": true
+        }
+    },
+	"database": {
+		"fileName": "databases"
+	},
+	"customFunction": "",
+    "Internet": {
+		"loc": false
+	}
+}

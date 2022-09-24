@@ -1,0 +1,9 @@
+{
+	"server": {
+		"starting": "The server is starting.",
+		"started": "The server is started on port ${settings.port}."
+	},
+	"Internet": {
+		"IPconnet": "Internet for IP verification is automatically set to ${settings.Internet.loc}."
+	}
+}

@@ -5,5 +5,11 @@
 	},
 	"Internet": {
 		"IPconnet": "아이피 확인용 인터넷이 ${settings.Internet.loc} 으로 자동 설정되었습니다."
+	},
+	"Routes": {
+		"LoadRoutesErr": "&c오류&r: 루트 파일을 로드하던 중 다음의 오류가 발생하였습니다: ",
+		"ReloadRoutesErr": "&c오류&r: 루트 파일을 리로드 하던 중 다음의 오류가 발생하였습니다: ",
+		"ReloadComplete": "&a루트 파일이 성공적으로 리로드 되었습니다.\n",
+		"Reloading": "루트파일이 변경되었습니다. 리로드합니다..."
 	}
 }

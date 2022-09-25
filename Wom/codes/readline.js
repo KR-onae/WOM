@@ -7,9 +7,9 @@ commandRead = function() {
         console.log(command);
         console.reload();
         try {
-            var EVAL = eval(command)
+            var EVAL = eval(command);
         } catch (error) {
-            console.error(error)
+            console.error(error);
         }
         if(EVAL != undefined) {
             process.stdout.write("&7> ");

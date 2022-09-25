@@ -5,5 +5,11 @@
 	},
 	"Internet": {
 		"IPconnet": "Internet for IP verification is automatically set to ${settings.Internet.loc}."
+	},
+	"Routes": {
+		"LoadRoutesErr": "&cError&r: Error loading routes file: ",
+		"ReloadRoutesErr": "&cError&r: Error reloading routes file: ",
+		"ReloadComplete": "&aReload completed successfully.\n",
+		"Reloading": "Routes file is changed. Reloading..."
 	}
 }

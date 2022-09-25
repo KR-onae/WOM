@@ -1,11 +1,13 @@
 newLine = `
-`
+`;
+
+var fs = require("fs");
 
 readFile = (url) => {
 	var out = {};
 	if(existsSync(url)) {
 		out.error = false;
-		out.text = fs.readFileSync(dir + "./" + settings.page.fileName + "/" +  url);
+		out.text = fs.readFileSync("./" + settings.page.fileName + "/" +  url);
 	} else {
 		out.error = true;
 	}
@@ -260,7 +262,7 @@ LangMSG = function(MSG) {
 }
 
 existsSync = (url) => {
-	return fs.existsSync(dir + "./" + settings.page.fileName + "/" +  url);
+	return fs.existsSync("./" + settings.page.fileName + "/" +  url);
 }
 
 module.exports = {

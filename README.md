@@ -1,3 +1,11 @@
+# IMPORTANT NOTICE
+**I will not develop this library any more.**
+The library's code was written a long time ago, and the code is not well organized, making maintenance difficult.
+So, the library cannot be developed anymore.
+In the future, if possible, I will try to recreate the library from scratch.
+thank you.
+
+
 ## Wom
 The best website maker.
 
